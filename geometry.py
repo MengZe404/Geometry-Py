@@ -240,13 +240,6 @@ class Dimention2(object):
         plt.axis([0, 10, 0, 10])
         plt.show()
 
-if __name__ == '__main__':
-    l1 = Line(1,1,3,2)
-    l2 = Line(2,3,5,10)
-    p1 = Point(1,2)
-
-    s1 = Dimention2(1,1,5,5,10,1)
-    print(s1.plot())
 
 
 
